@@ -1,4 +1,8 @@
-language: objective-c
+# do not install anything extra onto the image
+language: generic
+
+# use a Mac OSX image
+os: osx
 
 # run the script to download and install Unity editor
 install:
